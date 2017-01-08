@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863D72B6BD82A02B8F7E8F48 /* Pods_ProjectPuzzleGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156F99D366264F38398B813 /* Pods_ProjectPuzzleGame.framework */; };
+		CACB275C1DCDB5A600DD6D5A /* AboutGameViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB275B1DCDB5A600DD6D5A /* AboutGameViewViewController.swift */; };
 		CAD9236C1DC99DA700CAF735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9236B1DC99DA700CAF735 /* AppDelegate.swift */; };
 		CAD9236E1DC99DA700CAF735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9236D1DC99DA700CAF735 /* ViewController.swift */; };
 		CAD923711DC99DA700CAF735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD9236F1DC99DA700CAF735 /* Main.storyboard */; };
 		CAD923731DC99DA700CAF735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD923721DC99DA700CAF735 /* Assets.xcassets */; };
 		CAD923761DC99DA700CAF735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD923741DC99DA700CAF735 /* LaunchScreen.storyboard */; };
+		CAD9237E1DC99E4D00CAF735 /* SelectMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9237D1DC99E4D00CAF735 /* SelectMapView.swift */; };
+		CAD923801DC99E6700CAF735 /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9237F1DC99E6700CAF735 /* MainGameView.swift */; };
+		CAD923821DC99F5A00CAF735 /* SquareObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD923811DC99F5A00CAF735 /* SquareObject.swift */; };
+		CAD923841DC9A20800CAF735 /* ManageSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD923831DC9A20800CAF735 /* ManageSquare.swift */; };
+		CADD86C11DE4046200452C06 /* TempSquareObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADD86C01DE4046200452C06 /* TempSquareObject.swift */; };
+		CADD86E11DE45D4400452C06 /* ObjectPointDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADD86E01DE45D4400452C06 /* ObjectPointDirection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A92CA89F59D3B4243FD3B45 /* Pods-ProjectPuzzleGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectPuzzleGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectPuzzleGame/Pods-ProjectPuzzleGame.release.xcconfig"; sourceTree = "<group>"; };
+		5A423CDDB8C7C612271D2C5A /* Pods-ProjectPuzzleGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectPuzzleGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectPuzzleGame/Pods-ProjectPuzzleGame.debug.xcconfig"; sourceTree = "<group>"; };
+		8156F99D366264F38398B813 /* Pods_ProjectPuzzleGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectPuzzleGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACB275B1DCDB5A600DD6D5A /* AboutGameViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutGameViewViewController.swift; sourceTree = "<group>"; };
 		CAD923681DC99DA600CAF735 /* ProjectPuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectPuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD9236B1DC99DA700CAF735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD9236D1DC99DA700CAF735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,12 @@
 		CAD923721DC99DA700CAF735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD923751DC99DA700CAF735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAD923771DC99DA700CAF735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD9237D1DC99E4D00CAF735 /* SelectMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMapView.swift; sourceTree = "<group>"; };
+		CAD9237F1DC99E6700CAF735 /* MainGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
+		CAD923811DC99F5A00CAF735 /* SquareObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareObject.swift; sourceTree = "<group>"; };
+		CAD923831DC9A20800CAF735 /* ManageSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageSquare.swift; sourceTree = "<group>"; };
+		CADD86C01DE4046200452C06 /* TempSquareObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempSquareObject.swift; sourceTree = "<group>"; };
+		CADD86E01DE45D4400452C06 /* ObjectPointDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectPointDirection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863D72B6BD82A02B8F7E8F48 /* Pods_ProjectPuzzleGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11CD413862425E94148A3F7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8156F99D366264F38398B813 /* Pods_ProjectPuzzleGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33B83422A6B6F6B5721B0100 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A423CDDB8C7C612271D2C5A /* Pods-ProjectPuzzleGame.debug.xcconfig */,
+				4A92CA89F59D3B4243FD3B45 /* Pods-ProjectPuzzleGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CACB275D1DCDB6E000DD6D5A /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				CAD923831DC9A20800CAF735 /* ManageSquare.swift */,
+				CAD923811DC99F5A00CAF735 /* SquareObject.swift */,
+				CADD86C01DE4046200452C06 /* TempSquareObject.swift */,
+				CADD86E01DE45D4400452C06 /* ObjectPointDirection.swift */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
 		CAD9235F1DC99DA600CAF735 = {
 			isa = PBXGroup;
 			children = (
 				CAD9236A1DC99DA600CAF735 /* ProjectPuzzleGame */,
 				CAD923691DC99DA600CAF735 /* Products */,
+				33B83422A6B6F6B5721B0100 /* Pods */,
+				11CD413862425E94148A3F7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +109,10 @@
 				CAD923721DC99DA700CAF735 /* Assets.xcassets */,
 				CAD923741DC99DA700CAF735 /* LaunchScreen.storyboard */,
 				CAD923771DC99DA700CAF735 /* Info.plist */,
+				CAD9237D1DC99E4D00CAF735 /* SelectMapView.swift */,
+				CAD9237F1DC99E6700CAF735 /* MainGameView.swift */,
+				CACB275B1DCDB5A600DD6D5A /* AboutGameViewViewController.swift */,
+				CACB275D1DCDB6E000DD6D5A /* Object */,
 			);
 			path = ProjectPuzzleGame;
 			sourceTree = "<group>";
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAD9237A1DC99DA700CAF735 /* Build configuration list for PBXNativeTarget "ProjectPuzzleGame" */;
 			buildPhases = (
+				DB378F00124773A62C461548 /* [CP] Check Pods Manifest.lock */,
 				CAD923641DC99DA600CAF735 /* Sources */,
 				CAD923651DC99DA600CAF735 /* Frameworks */,
 				CAD923661DC99DA600CAF735 /* Resources */,
+				D27068AE93D9E9CBBE1EFC29 /* [CP] Embed Pods Frameworks */,
+				F8BD72F3812A8AD8FE9E9CDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +152,7 @@
 				TargetAttributes = {
 					CAD923671DC99DA600CAF735 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W546HLX8U2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +188,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D27068AE93D9E9CBBE1EFC29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectPuzzleGame/Pods-ProjectPuzzleGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB378F00124773A62C461548 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BD72F3812A8AD8FE9E9CDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectPuzzleGame/Pods-ProjectPuzzleGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAD923641DC99DA600CAF735 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CAD9236E1DC99DA700CAF735 /* ViewController.swift in Sources */,
+				CAD923821DC99F5A00CAF735 /* SquareObject.swift in Sources */,
+				CADD86E11DE45D4400452C06 /* ObjectPointDirection.swift in Sources */,
+				CACB275C1DCDB5A600DD6D5A /* AboutGameViewViewController.swift in Sources */,
 				CAD9236C1DC99DA700CAF735 /* AppDelegate.swift in Sources */,
+				CAD9237E1DC99E4D00CAF735 /* SelectMapView.swift in Sources */,
+				CAD923801DC99E6700CAF735 /* MainGameView.swift in Sources */,
+				CAD923841DC9A20800CAF735 /* ManageSquare.swift in Sources */,
+				CADD86C11DE4046200452C06 /* TempSquareObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,25 +370,31 @@
 		};
 		CAD9237B1DC99DA700CAF735 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A423CDDB8C7C612271D2C5A /* Pods-ProjectPuzzleGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W546HLX8U2;
 				INFOPLIST_FILE = ProjectPuzzleGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tritran.ProjectPuzzleGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		CAD9237C1DC99DA700CAF735 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A92CA89F59D3B4243FD3B45 /* Pods-ProjectPuzzleGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W546HLX8U2;
 				INFOPLIST_FILE = ProjectPuzzleGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tritran.ProjectPuzzleGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -299,6 +417,7 @@
 				CAD9237C1DC99DA700CAF735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

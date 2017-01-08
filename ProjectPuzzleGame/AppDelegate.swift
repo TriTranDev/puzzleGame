@@ -8,6 +8,15 @@
 
 import UIKit
 
+
+let kType3x3:CGFloat = 0
+let kType3x4:CGFloat = 1
+let kType4x4:CGFloat = 2
+let kType4x5:CGFloat = 3
+let kType5x5:CGFloat = 4
+let kType5x6:CGFloat = 5
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        GADMobileAds.configure(withApplicationID: "ca-app-pub-9528547388455539~5642753208")
         return true
     }
 
